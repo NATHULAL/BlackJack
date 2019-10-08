@@ -1,10 +1,11 @@
 // BlackJack
 
-let card1 = 'Ace of Spades',
-  card2 = 'Ten of Hearts';
+let deck = ["Ace of Spades", "Ten of Spades", "Three of Spades"];
+let playerCards = [deck[0], deck[1]]
 
 console.log('Welcome to BlackJack');
 
 console.log('You are dealt: ');
-console.log(' ' + card1);
-console.log(' ' + card2);
+console.log(' ' + playerCards[0]);
+console.log(' ' + playerCards[1]);
+
